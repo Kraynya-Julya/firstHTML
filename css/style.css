@@ -20,15 +20,22 @@ body{
     padding: 30px;
 }
 .first{
-   text-decoration: line-through;
+   
 }
-.first p{
+.first{
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 20px;
 }
 
 
-.link{}
+.list{
+
+}
+
+.list li:first-child{
+    text-decoration: line-through;
+}
+
 .textbutton{}
 .textinput{}
